@@ -1,0 +1,56 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"useDefineForClassFields": true,
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ESNext"
+		],
+		"allowJs": false,
+		"skipLibCheck": true,
+		"esModuleInterop": false,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+		"paths": {
+			"components/*": [
+				"./src/components/*"
+			],
+			"lib/*": [
+				"./src/lib/*"
+			],
+			"pages/*": [
+				"./src/pages/*"
+			],
+			"api/*": [
+				"./src/api/*"
+			],
+			"assets/*": [
+				"./src/assets/*"
+			],
+			"declarations/*": [
+				"./src/declarations/*"
+			]
+		}
+	},
+	"include": [
+		"./src/**/*",
+		"material-ui.d.ts",
+		"window.d.ts"
+	],
+	"exclude": [
+		"/node_modules/matrix-js-sdk/"
+	],
+	"references": [
+		{
+			"path": "./tsconfig.node.json"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+:root {
+	/* UI variables */
+	& {
+		--ui-header-height: 100px;
+	}
+}
